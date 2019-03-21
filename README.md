@@ -1,7 +1,7 @@
 # Baobab
-Data collected on baobab trees in October-November of 2006 in Tarangire National Park, Tanzania. 
+Data collected on baobab trees in October-November of 2006 in Tarangire National Park, Tanzania. These data document bark stripping by African Elephants.
 
-#Baobab selection methods
+#Baobab selection methods.
 Various roads across Tarangire national park were selected based on the proximity to our field camp. 
 While walking along each road, the nearest Baobab tree was sampled every 500 m. 
 The elevation, latitude and longitude were measured using a GPS device.   
@@ -19,11 +19,11 @@ This bark can be distinguished from the fourth category, “unscarred bark” be
 #Variable descriptions in "DATA_Baobab_v1.csv" file.
 Variable names in the datafile:
 BaobabID	The baobab identification number. The letter represents the day of sampling and the number is the order in which it was sampled.
-Latitude_DecDegSouth	latitude in decimal degrees East
-Longitude_DecDegreesEast	longitude in decimal degrees South
-Elevation_masl	m above sea level
-NewDamage_cm	New damage has a golden color from the recently exposed bark underparts
-OldDamage_cm	Old damage is grey in color as the bark underparts have been scortched by the wind and sun
-DamageScars_cm	Scarred damage is bark that has been ripped of but has since healed with new bark growing over it. It can be distinguished from unscared bark in that it is discontinuous with the upper parts of the tree which are unscarred because they are out of reach of the elephants.
+Latitude_DecDegSouth	latitude in decimal degrees East. Measured in units of decimal degrees south latitude.
+Longitude_DecDegreesEast	longitude in decimal degrees South. Measured in units of decimal degrees east longitude.
+Elevation_masl	m above sea level.
+NewDamage_cm	The length of the circumference of the tree which can be described as "New damage." New damage is fibrous looking and has a golden color from the recently exposed wood.
+OldDamage_cm	The length of the circumference of the tree which can be described as "Old damage." Old damage is grey in color as the bark underparts have been scortched by the wind and sun.
+DamageScars_cm	Scarred damage is bark that has been damaged but has since healed with new bark growing over it. It can be distinguished from unscared bark in that it is discontinuous with the upper parts of the tree which are unscarred because they are out of reach of the elephants.
 UndamagedUnscared_cm	Unscared bark is smooth and continuous with the upper branches which can not be reached by elephants.
 TotalCircumference_cm	The total circumference of the tree at ~1.5 m height from the ground with the meter tape following all wrinkles and envaginations of the tree bark.
